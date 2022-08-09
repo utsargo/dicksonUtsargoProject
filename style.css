@@ -14,6 +14,7 @@ body {
 
 #title, #description {
   color: white;
+  text-align: center;
 }
 
 #form {
@@ -35,4 +36,15 @@ label {
 
 textarea {
   width: 100%;
+}
+
+#checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+  #form {
+    width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
